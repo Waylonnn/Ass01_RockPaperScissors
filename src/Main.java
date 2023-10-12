@@ -32,7 +32,7 @@ public class Main {
             // Paper covers Rock
             else if (playerB.move.equals("P") && playerA.move.equals("R")) {
                 playerB.win = true;
-                System.out.println("Rock Breaks Scissors!");
+                System.out.println("Paper Covers Rock");
             } else if (playerA.move.equals("P") && playerB.move.equals("R")) {
                 playerA.win = true;
                 System.out.println("Paper Covers Rock!");
